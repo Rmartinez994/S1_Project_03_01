@@ -10,6 +10,7 @@
     font-family: Grunge;
     src: url('1942.woff') format('woff'),
         url('1942.ttf') format('truetype');
+    /*So basically  what i did right here was put in the font*/
 }
 
 @font-face {
@@ -36,7 +37,8 @@ html {
 }
 
 header {
-    background-color: black
+    background-color: black right
+        /*Here i put the background color for the web page, the heading of the page and the body.*/
 }
 
 body {
@@ -49,11 +51,13 @@ p {
     padding: 5px 25px 25px 25px;
 }
 
+/* Here I put the padding and margin for it could allign the text  */
 body>p {
     font-size: 1.1em;
     text-align: center;
 }
 
+/* Here I put the the size of the font */
 address {
     font-size: 0.9em;
     text-align: center;
@@ -87,6 +91,7 @@ section.playbill h1 {
     padding: 20px 0px 10px 20px;
 }
 
+/* Here I put the background colors and the text font the each of the plays */
 section#play1 {
     background-color: hsl(240, 100%, 88%);
 }
@@ -125,3 +130,5 @@ dt {
     margin-left: 0px;
     margin-bottom: 10px;
 }
+
+/* finally what this does is sets the author name in the correct place. */
